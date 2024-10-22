@@ -1,0 +1,67 @@
+For **Windows**, most terminal commands used in web development can be executed via **Command Prompt**,
+     **PowerShell**, or **Windows Subsystem for Linux (WSL)**.
+      Below is a list of common Windows-specific terminal commands for web development.
+
+### 1. **Basic Windows Commands**
+- `cd <directory>` - Change directory.
+- `dir` - List files and directories in the current directory.
+- `md <directory>` - Create a new directory (similar to `mkdir`).
+- `copy <source> <destination>` - Copy files or directories.
+- `move <source> <destination>` - Move or rename files or directories.
+- `del <filename>` - Delete a file.
+- `rmdir /s <directory>` - Remove a directory and its contents.
+- `cls` - Clear the terminal screen.
+- `echo %cd%` - Print working directory.
+
+### 2. **Windows Subsystem for Linux (WSL)**
+- **WSL Setup**:  
+  - `wsl --install` - Install WSL (requires Windows 10/11).
+  - `wsl` - Start WSL.
+  - `wsl --set-default-version 2` - Set WSL version to WSL 2.
+
+- **Common WSL Commands** (Linux-like):
+  - `ls` - List files and directories.
+  - `mkdir <directory>` - Create a directory.
+  - `rm <file>` - Remove a file.
+  - `cd <directory>` - Change directory.
+  - `pwd` - Print working directory.
+  - `cp <source> <destination>` - Copy files or directories.
+
+### 3. **Git Commands (Windows)**
+Git can be used via Command Prompt, PowerShell, or Git Bash (installed with Git):
+- `git init` - Initialize a Git repository.
+- `git clone <repo-url>` - Clone a Git repository.
+- `git status` - Check repository status.
+- `git add <file>` - Stage a file.
+- `git commit -m "message"` - Commit changes.
+- `git push` - Push to the remote repository.
+- `git pull` - Pull changes from a remote repository.
+
+### 4. **Node.js and NPM Commands**
+For Node.js-based web development, install Node.js on Windows, then use these commands:
+- `npm init` - Initialize a new Node.js project.
+- `npm install <package-name>` - Install a package.
+- `npm start` - Run the project (if defined in `package.json`).
+- `npm run <script>` - Run a custom script (e.g., `npm run build`).
+- `npm install -g <package-name>` - Install a package globally.
+
+### 5. **Development Server Commands**
+- **Python HTTP Server** (quick way to serve a directory as a static website):
+  - `python -m http.server` (in PowerShell or Command Prompt).
+- **Live Server** (using extensions like Live Server in VS Code):
+  - Right-click `index.html` -> `Open with Live Server`.
+
+### 6. **PowerShell Specific Commands**
+PowerShell has some extra features compared to Command Prompt:
+- `Get-ChildItem` - Equivalent of `ls` or `dir`, lists directory contents.
+- `Set-Location <directory>` - Equivalent of `cd`, changes directory.
+- `New-Item -Path <file>` - Create a new file.
+- `Remove-Item <file>` - Remove a file or directory.
+  
+### 7. **Package Managers (Chocolatey)**
+If you're using Chocolatey for managing developer tools:
+- `choco install <package>` - Install a package (e.g., `choco install nodejs`).
+- `choco upgrade <package>` - Upgrade a package.
+- `choco uninstall <package>` - Uninstall a package.
+
+These commands are essential for managing files, directories, repositories, and running local development environments on Windows.
