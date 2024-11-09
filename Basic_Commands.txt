@@ -8,7 +8,7 @@ For **Windows**, most terminal commands used in web development can be executed 
 - `md <directory>` - Create a new directory (similar to `mkdir`).
 - `copy <source> <destination>` - Copy files or directories.
 - `move <source> <destination>` - Move or rename files or directories.
-- `del <filename>` - Delete a file.
+- `del <filename>` - for Delete a file.
 - `rmdir /s <directory>` - Remove a directory and its contents.
 - `cls` - Clear the terminal screen.
 - `echo %cd%` - Print working directory.
